@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TechProgr
 {
-	class Bus : Vehicle
+	public class Bus : Vehicle
 	{
 		protected readonly int busWidth = 95;
 		protected readonly int busHeight = 35;

@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace TechProgr
 {
-	public enum Direction
-	{
-		Up,
-		Down,
-		Left, 
-		Right
-	}
+    public class ClassParam<T> where T: TwoFloorBus
+    {
+
+    }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TechProgr
 {
-	class TwoFloorBus : Bus
+	public class TwoFloorBus : Bus
 	{
 		public Color dopColor { private set; get; }
 		public bool polosa { private set; get; }
